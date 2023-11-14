@@ -1,0 +1,82 @@
+                                                                                MODULE 1 -INTRODUCTION
+
+
+
+*Concepts and characterstics of DBMS:
+ ------------------------------------
+
+
+* Data==> Raw facts,unprocessed facts. 
+  Eg: teja, 75 B+
+
+* Information ==>Refined dats.
+  Eg: teja has passed with 75% and obtained B+ grade.
+
+* Database  ==>collection of related data.
+
+*Metadata ==> Definition of data(more information about data).
+  Eg:constraints
+
+
+*Functionalities of DBMS:
+
+  Define      ==>specifying the datatype,structure and constraints for the data to be stored.
+  Construct   ==>process of storing data on some storage medium.
+  Manipulate  ==>Quering the database to retrieve specific data, updating database and generating database.
+  Share        ==>Allows multiple users and programs to access the database concurrently.
+
+
+
+*Properities of DBMS:
+
+  *A database represents some ascepts of real world.
+  *A database is a logically coherent collection of data with some meaning.
+  *A database is designed , bult and  populated with data for a specific purpose.
+
+
+*Need of DBMS:
+
+  *Processing quiries and object management.
+  *controlling redundancy and inconsistency.
+  *Efficient memory management and indexing.
+  *concurrency control and Transcation management.
+  *Access control and ease in accessing data.
+  *Integrity constraints.
+
+
+*Characteristics of DBMS:
+
+  *Self Describing nature of a database system.
+  *Insulation b/w programs and data and data abstraction.
+  *Support of multiple views of data.
+  *sharing of data and  multiuser transcation processing.
+
+
+*Advantages of using DBMS:
+
+  *Controlling Redundancy.
+  *Restricting unauthorized access.
+  *PRoviding persistent storage for program objects.
+  *Providing Backup and Recovery.
+  *providing multiple user Interfaces.
+  *Representing complex relationships among Data.
+  *Enforcing Integrity constraints.
+  *permitting Inferencing and actions using rules.
+
+
+
+*Disadvantages of using DBMS:
+
+  *The cost of Hardware and Software of DBMS are quite high,  which increases the budget of the organization.
+  *Most DBMS are Often complex , so training users  to use the DBMS  is required.
+  *DBMS cannot perform sophiscated calculations.
+
+
+
+*When not to use DBMS:
+
+  *Overhead  costs of using Database Management system.
+    *High initial investment.
+    *Overhead for providing security.
+    *Concurrency control and recovery.
+  
