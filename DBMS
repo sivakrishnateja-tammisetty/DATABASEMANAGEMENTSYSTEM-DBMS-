@@ -79,4 +79,47 @@
     *High initial investment.
     *Overhead for providing security.
     *Concurrency control and recovery.
+
+
+
+
+
+
+
+
+
+
+
+*History and Evolution of Database:
+----------------------------------
+
+
+  *Types of Database:
+
+    *Hierarchical Database:
+
+      *Tree-like structure.
+      *Top-down or Bottom-up structure.
+      *parent-child relationship-Parents may have many childern,but childern have only one parent.
+
+  *  Network Database:
+
+    *Grap structure accessed through several paths.
+    *Each child can have multiple parents.
+    *More complex relationships.
+
+
+  *Relational Database:
+
+    *Easiset and most wiedly used model.
+    *Normalize data in rows and columns of the tables.
+    *Fixed structures and manipulated using SQL.
+
+
+
+  *Object-oriented database:
+
+    *Data stored in the form of objects.
+    *classes with data within it.
+    *stores both, datamembers values and operation
   
