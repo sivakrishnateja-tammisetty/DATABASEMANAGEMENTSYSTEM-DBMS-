@@ -122,4 +122,16 @@
     *Data stored in the form of objects.
     *classes with data within it.
     *stores both, datamembers values and operation
+
+
+
+*Database system Archiecture(Three tire archiecture):
+ ---------------------------------------------------
+
+  *Users of DBMS:
+    *Application programmers ==>Application programmers write programs in various programming languages to intercat with databases.
+
+   *Database Adminstrator ==>Database admin is responsible for managing the entire DBMS system.
+
+   *End-users ==>The endusers are the people who interact with database management system. They conduct various operations on databses like reteriving,updating and deleting.
   
