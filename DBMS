@@ -134,4 +134,83 @@
    *Database Adminstrator ==>Database admin is responsible for managing the entire DBMS system.
 
    *End-users ==>The endusers are the people who interact with database management system. They conduct various operations on databses like reteriving,updating and deleting.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                                           2.DATA MODELLING
+
+
+2.1 RELATIONAL RELATIONAL DATABASE MODEL:
+
+*Relational database model uses concept of mathematical relations.
+*First commerical implementation - ORACAl SQL, SQL/DS SYSTEM(IBM).
+* standard commerical RDBMS is SQL.
+
+Basic Terminology:
+1. Relational schema - set of all  columns titles  in the table.
+2. Relational Database schema - various tables in a Database.
+3. Relation state -no.of tuples (or) no.of rows in the table.
+4. Cardinality - Total no.of rows in the table.
+5. Tuple - row ---->
+6. Attribute - column |
+7. Domain -set of range values of a column.
+8. Atomcity - unable to split the values like (eg. joining date),if we split joining date ,there is no meaning.
+9. NULL values - whose value doesnt NULL.
+10. Sorted & unsorted Values -
+
+
+
+2.2 ENTITY RELATIONALSHIP MODEL:
+
+Designing a database: 
+  1. ENtity relationalship model -Identifying enity and relations
+  2.Normalization - Refinement of database designing.
+
+
+
+* corelational of ER model and Realational Model
+      ER model                         Relational Model
+      Entity set                       Table
+      Entity                           Row
+      Attribute                        column
+
+
+
+
+
+2.3 TYPES OF ATTRIBUTES AND THEIR SYMBOLS:
+
+*Attributes describes the properities of entity of which they are associated.
+   *simple
+  *composite
+  *single value
+  *Multi value
+  *stored
+  *Derived
+
+
+
+*simple attribute - cannot de divided into simpler components (eg:age, rollno).
+*Composite attribute - can be divided into simpler components (eg: name,address).
+*single value attribute- can have only a single value(eg rolll no, dateofbirth).
+*Multi value attribute - can have multiple values(eg:contact number, email address).
+*stored attribute - attribute that is  or needs to be stored permanently(eg: roll no,name).
+*Derived attribute -attribute that can be calculated based on other attributes(eg:age can be calculated based on DOB).
+
+
+
+
+
+
+
+2.4 CONNECTIVITY OF A RELATIONSHIPS:
+
+*The connectivity of a relationship  describes the mapping of associated  entity instances  in the relationship.
+  *one -to-one (1:1)
+  *one-to-many (1:m)
+  *many-to-one (m:1)
+  *many-to-many (m:m)
+
   
